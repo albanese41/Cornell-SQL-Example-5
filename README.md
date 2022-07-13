@@ -1,4 +1,4 @@
-SELECT A.order_id, SUM(A.qty * B.item_weight) AS Total_Weight
+SELECT A.order_id, SUM(A.qty * B.item_weight) AS total_weight
 
 FROM Order_Items AS A
 
